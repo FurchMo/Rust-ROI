@@ -27,7 +27,11 @@ The program captures video frames from a webcam, compares consecutive frames to 
 
 2. Ensure Rust is installed: https://rust-lang.org
 
-3. Add dependencies in your `Cargo.toml`:
+3. Add anyhow and opencv:
+   ```
+   cargo add anyhow
+   cargo add opencv      
+   ```
 
 ## Usage
 
